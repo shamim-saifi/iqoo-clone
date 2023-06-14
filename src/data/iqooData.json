@@ -1,0 +1,50 @@
+{
+    "logo": "https://i.pinimg.com/originals/c8/55/03/c85503ffac45d4b8b14ba397f4b44ce9.png",
+    "Banner": [
+        {
+            "homeBanner": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1684691967317/e62fa2948150b5d91d443f6b7181f6dc.jpg"
+        }
+    ],
+    "BannerData": {
+        "img": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1684691934263/61b675ee982bd16618174172d62d0383.png",
+        "span": "Ultra Stable 64MP OSI Camera",
+        "price": "From ₹18,999"
+    },
+    "MidImg":[
+        {   "Phoneimg":"https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1685077378917/1e51532c345d9c1f4227702cc76504db.jpg",
+            "Nameimg":"https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1684691934263/61b675ee982bd16618174172d62d0383.png",
+            "span":"Segment's 1st 64MP OSI Camera "
+        
+        },
+        {
+            "Phoneimg":"https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1682510803882/e9d16910c1106d1dabaeddde68f2fa12.jpg",
+            "img":"https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1682510797497/98fc8a9ff3ad409764112b809ca396e1.png",
+            "span":"India's First 2k E6 AMOLED"
+            
+        }
+    ],
+    "Discover":[
+        {
+            "img":"https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1679991336583/f688ce2051ae5841e6d5cb7dbf023050.jpg",
+            "span":"iQOO 9T"
+        },
+        {
+            "img":"https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1679992125003/523f7c832cee925433dcf19e69262488.jpg",
+            "span":"iQOO Neo 6"
+        },
+        {
+            "img":"https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1684730530820/aee93887900a7e1812c9e641d00e7b51.jpg",
+            "span":"iQOO Neo 7"
+        },
+        {
+            "img":"https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1685446431905/29def1d6c301cced6621af3b9f1bdafd.jpg",
+            "span":"iQOO Gaming"
+        },
+        {
+            "img":"https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1685447224608/a56d92eab708fa5650adef55faeb3e10.jpg",
+            "span":"iQOO z6 Lite"
+        }
+
+    ]
+  
+}

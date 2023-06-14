@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './Components/NavBar/Footer/Footer';
+import Nav from './Components/NavBar/Nav';
+import data from "./data/iqooData.json";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Nav logo={data.logo} banner={data.Banner} bannerData={data.bannerData} />
+      <Footer />
+
     </div>
   );
 }
