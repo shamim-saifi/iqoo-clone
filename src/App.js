@@ -1,5 +1,5 @@
 import './App.css';
-import Footer from './Components/NavBar/Footer/Footer';
+import Footer from './Components/Footer/Footer';
 import Nav from './Components/NavBar/Nav';
 import data from "./data/iqooData.json";
 
