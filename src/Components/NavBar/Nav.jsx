@@ -18,10 +18,9 @@ const Nav = ({ logo, banner, bannerData }) => {
                     <a href="#">Home</a>
                     <a href="#">Products</a>
                     <a href="#">E-Store</a>
-                    <a href="#">Community</a>
-                    <a href="#">Funtouch</a>
                     <a href="#">Support</a>
                     <a href="#">About</a>
+                    <a href="#">SHAMIM ADMIN</a>
                 </div>
                 <div className="icons">
                     <span> <RiSearch2Line /></span>
