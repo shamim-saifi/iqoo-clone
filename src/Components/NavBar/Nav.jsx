@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { RiSearch2Line } from "react-icons/ri";
 import { CgProfile } from "react-icons/cg";
 import { BsCart2 } from "react-icons/bs";
@@ -7,9 +7,20 @@ import "./Nav.css";
 
 
 const Nav = ({ logo, banner, bannerData }) => {
+
+    const [stay, setStay] = useState(true);
+
+    const changeStay = () => {
+        if (window.scrollY <= 0) {
+            setStay(true)
+        } else {
+            setStay(false)
+        }
+    }
+    window.addEventListener("scroll", changeStay, true);
     return (
         <>
-            <div id="nav">
+            <div className={stay ? '' : 'stay'} id="nav">
                 <div className="logo">
                     <img src={logo} />
 
@@ -20,7 +31,7 @@ const Nav = ({ logo, banner, bannerData }) => {
                     <a href="#">E-Store</a>
                     <a href="#">Support</a>
                     <a href="#">About</a>
-                    <a href="#">SHAMIM ADMIN</a>
+                    <a  href="https://shamim-saifi.vercel.app" target="_blank">SHAMIM ADMIN</a>
                 </div>
                 <div className="icons">
                     <span> <RiSearch2Line /></span>
@@ -35,6 +46,12 @@ const Nav = ({ logo, banner, bannerData }) => {
 
                     </span>
                 </div>
+            </div>
+            <div className="homeImg">
+                <img
+                    src="https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1687435368976/cb1c659a4f7453ad37aef62f56da42fd.jpg"
+                    alt="homeImg"
+                />
             </div>
         </>
     )
